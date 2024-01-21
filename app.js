@@ -37,10 +37,3 @@ function buyProduct(productId) {
   }
 }
 
-// Main program
-login();
-viewProducts();
-
-const selectedProductId = parseInt(prompt('Enter the ID of the product you want to view and buy:'));
-viewProduct(selectedProductId);
-buyProduct(selectedProductId);
