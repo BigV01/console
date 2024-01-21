@@ -24,7 +24,7 @@ function viewProduct(productId) {
   if (product) {
     console.log(`Product Details: ${product.name} - $${product.price}`);
   } else {
-    console.log("Product not available.");
+    console.log("Product not available, check similar products.");
   }
 }
 
@@ -33,7 +33,7 @@ function buyProduct(productId) {
   if (product) {
     console.log(`Congratulations, ${currentUser}! You've purchased ${product.name} for $${product.price}.`);
   } else {
-    console.log('Product not available.');
+    console.log('Product not available, check similar products.');
   }
 }
 
